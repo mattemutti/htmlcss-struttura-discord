@@ -27,7 +27,11 @@
 
 body{
     margin: 0;
-    border-bottom-left-radius: 3rem;
+}
+
+.plr-section{
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 
@@ -39,8 +43,6 @@ body{
 
 #site-header{
     background-color: var(--dis-bg-heade);
-    padding-left: 5rem;
-    padding-right: 5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;;
 }
@@ -97,8 +99,7 @@ body{
 .box1{
     padding-top: 5rem;
     padding-bottom: 5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    
 }
 .box1-flex{
     display: flex;
@@ -128,8 +129,7 @@ body{
     background-color: var(--dis-bg-img);
     padding-top: 5rem;
     padding-bottom: 5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    
 }
 
 .img-out-centre{
