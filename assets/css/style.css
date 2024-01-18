@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 
 
 
@@ -9,24 +12,9 @@
     --dis-bg-img: #00008bFF;
     --di-bg-concen:#ee82eeFF;
     --dis-bg-boxsx:#1e90ffFF;
-    --dis-bg-boxdx: #ffc0cbFF;;
-}
-
-
-/* classe che serve solo di riempimento*/
-
-.debug{
-    background-color: red;
-
-}
-
-
-
-/* #endregion rule common  */
-
-
-body{
-    margin: 0;
+    --dis-bg-boxdx: #ffc0cbFF;
+    --dis-bg-navout: #23272aFF;
+    --dis-bg-navout2: #20b2aaFF;
 }
 
 .plr-section{
@@ -34,8 +22,12 @@ body{
     padding-right: 5rem;
 }
 
+.debug{
+    background-color: red;
+}
+/* classe che serve solo di riempimento*/
 
-
+/* #endregion rule common  */
 
 
 
@@ -74,6 +66,8 @@ body{
 
 /* #endregion header*/
 
+
+
 /* #region main */
 
 #site-main{
@@ -99,14 +93,22 @@ body{
 .box1{
     padding-top: 5rem;
     padding-bottom: 5rem;
+    background-color: white;
     
 }
+
+.box2{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgb(198, 193, 193);
+    
+}
+
 .box1-flex{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 .box-sx{
     height: 300px;
@@ -122,11 +124,10 @@ body{
     border: black 1px dashed;
     flex-grow: 1;
     background-color: var(--dis-bg-boxdx);
-    text-align: center;
 }
 
 .bg-img-out{
-    background-color: var(--dis-bg-img);
+    background-color:  rgb(198, 193, 193);
     padding-top: 5rem;
     padding-bottom: 5rem;
     
@@ -135,20 +136,65 @@ body{
 .img-out-centre{
     text-align: center;
     border: rgb(169, 195, 5) 1px dashed;
-    background-color: var(--di-bg-concen);
+    background-color: green;
     height: 400px;
 }
 
 /* #endregion main */
 
 
+
 /* #region footer  */
 
-
 #site-footer{
-    background-color: red;
-    height: 2%;
+    background-color: var(--dis-bg-navout);
+    padding-top: 1rem;
+    padding-bottom: 3rem;
 }
 
+.nav-footer{
+    display: flex;  
+    
+}
+
+.navout1{
+    flex-grow: 2;
+    height: 300px;
+    border: 1px black dashed;
+    background-color: var(--dis-bg-boxdx);
+}
+
+.navout2{
+    flex-grow: 1;
+    height: 300px;
+    border: 1px black dashed;
+    background-color: var(--dis-bg-navout2);
+}
+
+.out{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dis-bg-navout2);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.logo-out{
+    background-color: var(--dis-bg-boxdx);
+    border: 1px black dashed;
+    text-align: center;
+}
+
+.button-out{
+    background-color:  var(--dis-bg-boxdx);
+    border: 1px black dashed;
+    text-align: center;
+}
+
+
+.line{
+    border-top: 1px white sollid;
+    padding-top: 2rem;
+}
 
 /* #endregion footer */
