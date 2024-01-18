@@ -8,30 +8,39 @@
     --dis-bg-nav: #daa520FF;
     --dis-bg-img: #00008bFF;
     --di-bg-concen:#ee82eeFF;
+    --dis-bg-boxsx:#1e90ffFF;
+    --dis-bg-boxdx: #ffc0cbFF;;
 }
-
-/* #endregion rule common  */
-
-
-body{
-    margin: 0;
-}
-
-
-
 
 
 /* classe che serve solo di riempimento*/
 
 .debug{
     background-color: red;
+
 }
+
+
+
+/* #endregion rule common  */
+
+
+body{
+    margin: 0;
+    border-bottom-left-radius: 3rem;
+}
+
+
+
+
+
+
 /* #region header */
 
 #site-header{
     background-color: var(--dis-bg-heade);
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;;
 }
@@ -72,13 +81,46 @@ body{
 
 .bg-img{
     background-color: var(--dis-bg-img);
-    padding: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 .container-central{
     text-align: center;
     border: rgb(169, 195, 5) 1px dashed;
     background-color: var(--di-bg-concen);
+    height: 150px;
+}
+
+.box1{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.box1-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box-sx{
+    height: 300px;
+    width: 250px;
+    border: black 1px dashed;
+    flex-grow: 2;
+    background-color: var(--dis-bg-boxsx);
+}
+
+.box-dx{
+    height: 300px;
+    width: 80px;
+    border: black 1px dashed;
+    flex-grow: 1;
+    background-color: var(--dis-bg-boxdx);
 }
 
 /* #endregion main */
