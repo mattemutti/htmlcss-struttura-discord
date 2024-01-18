@@ -6,6 +6,8 @@
 :root{
     --dis-bg-heade:#add8e6FF;
     --dis-bg-nav: #daa520FF;
+    --dis-bg-img: #00008bFF;
+    --di-bg-concen:#ee82eeFF;
 }
 
 /* #endregion rule common  */
@@ -24,7 +26,7 @@ body{
 .debug{
     background-color: red;
 }
-/* #region header*/
+/* #region header */
 
 #site-header{
     background-color: var(--dis-bg-heade);
@@ -43,32 +45,41 @@ body{
 .logo{
     flex-grow: 1;
     text-align: left;
-    border: 1px black solid;
+    border: 1px black dashed;
     
 }
 
 .link{
     flex-grow: 3;
     text-align: center;
-    border: 1px black solid;
+    border: 1px black dashed;
 }
 
 .login{
     flex-grow: 1;
     text-align: right;
-    border: 1px black solid;
+    border: 1px black dashed;
 }
 
-/* endregion header*/
+/* #endregion header*/
 
-/* #region mani */
+/* #region main */
 
 #site-main{
     background-color: blue;
     height: 800px;
-    
 }
 
+.bg-img{
+    background-color: var(--dis-bg-img);
+    padding: 3rem;
+}
+
+.container-central{
+    text-align: center;
+    border: rgb(169, 195, 5) 1px dashed;
+    background-color: var(--di-bg-concen);
+}
 
 /* #endregion main */
 
