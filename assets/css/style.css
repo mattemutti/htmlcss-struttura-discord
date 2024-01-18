@@ -1,0 +1,22 @@
+
+body{
+    margin: 0;
+}
+
+/* classe che serve solo di riempimento*/
+
+.debug{
+    background-color: red;
+}
+
+#site-header{
+    background-color: aqua;
+}
+
+#site-main{
+    background-color: blue;
+}
+
+#site-footer{
+    background-color: red;
+}
