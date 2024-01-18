@@ -1,22 +1,85 @@
 
+
+
+/* #region rule common  */
+
+:root{
+    --dis-bg-heade:#add8e6FF;
+    --dis-bg-nav: #daa520FF;
+}
+
+/* #endregion rule common  */
+
+
 body{
     margin: 0;
 }
+
+
+
+
 
 /* classe che serve solo di riempimento*/
 
 .debug{
     background-color: red;
 }
+/* #region header*/
 
 #site-header{
-    background-color: aqua;
+    background-color: var(--dis-bg-heade);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;;
 }
+
+.nav{
+    display: flex;
+    justify-content: center;
+   background-color: var(--dis-bg-nav);
+}
+
+.logo{
+    flex-grow: 1;
+    text-align: left;
+    border: 1px black solid;
+    
+}
+
+.link{
+    flex-grow: 3;
+    text-align: center;
+    border: 1px black solid;
+}
+
+.login{
+    flex-grow: 1;
+    text-align: right;
+    border: 1px black solid;
+}
+
+/* endregion header*/
+
+/* #region mani */
 
 #site-main{
     background-color: blue;
+    height: 800px;
+    
 }
+
+
+/* #endregion main */
+
+
+/* #region footer  */
+
 
 #site-footer{
     background-color: red;
+    height: 2%;
 }
+
+
+/* #endregion footer */
