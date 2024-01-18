@@ -76,7 +76,7 @@ body{
 
 #site-main{
     background-color: blue;
-    height: 800px;
+    
 }
 
 .bg-img{
@@ -121,6 +121,7 @@ body{
     border: black 1px dashed;
     flex-grow: 1;
     background-color: var(--dis-bg-boxdx);
+    text-align: center;
 }
 
 /* #endregion main */
