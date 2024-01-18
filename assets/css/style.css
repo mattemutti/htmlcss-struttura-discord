@@ -110,7 +110,7 @@ body{
     align-items: center;
 }
 
-.box-sx{
+.box-img{
     height: 300px;
     width: 250px;
     border: black 1px dashed;
@@ -118,7 +118,7 @@ body{
     background-color: var(--dis-bg-boxsx);
 }
 
-.box-dx{
+.box-text{
     height: 300px;
     width: 80px;
     border: black 1px dashed;
@@ -157,14 +157,14 @@ body{
     
 }
 
-.navout1{
+.link-footer1{
     flex-grow: 2;
     height: 300px;
     border: 1px black dashed;
     background-color: var(--dis-bg-boxdx);
 }
 
-.navout2{
+.link-footer2{
     flex-grow: 1;
     height: 300px;
     border: 1px black dashed;
